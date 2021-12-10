@@ -1,6 +1,6 @@
 ### Akan-Names
 #### Brief description of application
-Assigns users Akan names, based on their birth day. 10,11,2021
+Assigns users Akan names, based on their birth day. 10-Dec-2021
 #### By 
 Veronica Wangari
 ## Description
