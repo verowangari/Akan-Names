@@ -1,8 +1,13 @@
 .navbar-brand span{
     color: #e52165;
 }
-.navbar-brand a{
+ .navbar-brand {
     font-family: "Oleo Script Swash Caps";
+ }
+.collapse a{
+    font-size: 25px;
+    font-weight: bolder;
+    margin-left: 90px;
 }
 /* Styling for the container */
 .container {
@@ -30,4 +35,9 @@
 .row{
     /* height: 100vh; */
     margin:;
+}
+/* Footer */
+.page-footer{
+    background-color: #0d1137;
+    color: #e52165;
 }
