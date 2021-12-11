@@ -12,6 +12,7 @@
 /* Styling for the container */
 .container {
     padding-top: 90px;
+    overflow: hidden;
 }
 /* Styling for the grid */
 #firstcolumn{
@@ -32,10 +33,7 @@
     border: none;
     border-radius: 40px;
 }
-.row{
-    /* height: 100vh; */
-    margin:;
-}
+
 /* Footer */
 .page-footer{
     background-color: #0d1137;
