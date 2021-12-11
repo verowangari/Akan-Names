@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Akan-Names</title>
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/style.css" />
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
@@ -14,16 +14,25 @@
     />
   </head>
   <body>
-
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <a class="navbar-brand" href="#">AKAN<span>NAMES</span></a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarText"
+        aria-controls="navbarText"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarText">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="#">HOME<span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="#"
+              >HOME<span class="sr-only">(current)</span></a
+            >
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">ABOUT</a>
@@ -32,27 +41,88 @@
             <a class="nav-link" href="#">CONTACT</a>
           </li>
         </ul>
-        <span class="navbar-text">
-          FIND OUT YOUR NAME
-        </span>
+        <span class="navbar-text"> FIND OUT YOUR NAME </span>
       </div>
     </nav>
-<!-- Grid -->
+    <!-- Grid -->
 
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-6" id="firstcolumn">
+          <h1>Akan Names</h1>
+          <p>
+            The Akan people of Ghana frequently name their children after the
+            day of the week they were born and the order in which they were
+            born.This naming tradition is shared throughout West Africa and the
+            African diaspora. Most Ghanaians have at least one name from this
+            system, even if they also have an English or Christian name
+          </p>
+        </div>
+        <div class="col-sm-6">
+          <h1>Find Out you Akan Name</h1>
+          <!-- Form -->
+          <form>
+            <div class="form-group">
+              <label for="exampleInputdate1">Date of birth</label>
+              <input
+                type="date"
+                class="form-control"
+                id="exampleInputdate1"
+                aria-describedby="dateHelp"
+                placeholder="Enter Date of Birth"
+              />
+              <small id="dateHelp" class="form-text text-muted"
+                >Enter your date of birth in the format month/day/year</small
+              >
+            </div>
+            <div class="form-group">
+              <label for="exampleInputname1">Password</label>
+              <input
+                type="name"
+                class="form-control"
+                id="exampleInputname1"
+                placeholder="Your First Name"
+              />
+            </div>
+            <!-- radio -->
+            <fieldset class="form-group">
+              <div class="row">
+                <legend class="col-form-label col-sm-2 pt-0">Gender</legend>
+                <div class="col-sm-10">
+                  <div class="form-check">
+                    <input
+                      class="form-check-input"
+                      type="radio"
+                      name="gridRadios"
+                      id="gridRadios1"
+                      value="option1"
+                      checked
+                    />
+                    <label class="form-check-label" for="gridRadios1">
+                      Male
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input
+                      class="form-check-input"
+                      type="radio"
+                      name="gridRadios"
+                      id="gridRadios2"
+                      value="option2"
+                    />
+                    <label class="form-check-label" for="gridRadios2">
+                      Female
+                    </label>
+                  </div>
+                </div>
+              </div>
+            </fieldset>
 
-<div class="container">
-  <div class="row">
-    <div class="col-sm-6" id="firstcolumn">
-      <h1>Akan Names</h1>
-      <p> The Akan people of Ghana frequently name their children after the day of the week they were born and the order in which they were born.This naming tradition is shared throughout West Africa and the African diaspora. Most Ghanaians have at least one name from this system, even if they also have an English or Christian name</p>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+        </div>
+      </div>
     </div>
-    <div class="col-sm-6">
-      <h1> Find Out you Akan Name</h1>
-      <!-- Form -->
-      
-    </div>
-  </div>
-</div>
 
     <!-- boostraplinks -->
     <script
