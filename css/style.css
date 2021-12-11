@@ -1,13 +1,26 @@
 .navbar-brand span{
     color: #e52165;
 }
+/* Styling for the container */
+.container {
+    padding-top: 90px;
+}
 /* Styling for the grid */
-#firstcolumm{
-    background-image: url(assets/african.jpg);
-    
+#firstcolumn{
+    background-image: url(/assets/african.jpg);
+      color:#e52165;
+      font-size: 26px;
+      font-weight: 400px;
+}
+#secondcolumn{
+    background-color:#e52165;
+}
+#submitbutton{
+    background-color: #0d1137;
+    border: none;
+    border-radius: 40px;
 }
 .row{
-    height: 100vh;
-    width: 100%;
-    background-color: blue;
+    /* height: 100vh; */
+    margin:;
 }
