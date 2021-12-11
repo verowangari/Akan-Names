@@ -1,19 +1,26 @@
 .navbar-brand span{
     color: #e52165;
 }
+.navbar-brand a{
+    font-family: "Oleo Script Swash Caps";
+}
 /* Styling for the container */
 .container {
     padding-top: 90px;
 }
 /* Styling for the grid */
 #firstcolumn{
-    background-image: url(/assets/african.jpg);
-      color:#e52165;
+    background-image: url(/assets/culture.jpeg);
+      color:white;
       font-size: 26px;
-      font-weight: 400px;
+      font-weight: 350px;
+      background-position: center;
+      background-size: cover;
+
 }
 #secondcolumn{
     background-color:#e52165;
+    color: white;
 }
 #submitbutton{
     background-color: #0d1137;
