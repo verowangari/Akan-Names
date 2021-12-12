@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Akan-Names</title>
     <link rel="stylesheet" href="./css/style.css" />
+    <script defer src="/js/main.js"></script>
+    <link rel="stylesheet" href="/js/main.js">
     <link
       href="https://fonts.googleapis.com/css?family=Oleo Script Swash Caps"
       rel="stylesheet"
@@ -66,27 +68,27 @@
         <div class="col-sm-6" id="secondcolumn">
           <h1>Find Out you Akan Name</h1>
           <!-- Form -->
-          <form>
+          <form id="form" action="/" method="GET">
             <div class="form-group">
-              <label for="exampleInputdate1">Date of birth</label>
+              <label for="date">Date of birth</label>
               <input
                 type="date"
                 class="form-control"
-                id="exampleInputdate1"
+                id="date"
                 aria-describedby="dateHelp"
-                placeholder="Enter Date of Birth"
+                placeholder="Enter Date of Birth" required
               />
               <small id="dateHelp" class="form-text text-muted"
                 >Enter your date of birth in the format month/day/year</small
               >
             </div>
             <div class="form-group">
-              <label for="exampleInputname1">Password</label>
+              <label for="name">Your Surname</label>
               <input
                 type="name"
                 class="form-control"
-                id="exampleInputname1"
-                placeholder="Your First Name"
+                id="name"
+                placeholder="Your Surname"
               />
             </div>
             <!-- radio -->
