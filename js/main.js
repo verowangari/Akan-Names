@@ -2,8 +2,8 @@ const date = document.getElementById("date");
 const month = document.getElementById("month");
 const year = document.getElementById("year");
 const btn = document.getElementById("btn");
-const male=document.getElementById("male")
-const female=document.getElementById("female")
+const male = document.getElementById("male");
+const female = document.getElementById("female");
 function getDay() {
   let DD = parseInt(date.value);
   let MM = parseInt(month.value);
@@ -35,19 +35,21 @@ function getAkan() {
     "Kwame",
   ];
   let femaleAkan = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
-  let index=getDay()
-  if(male.value=="male"){
-    let yourAkanName=`Your Akan Name is ${maleAkan[index]} and you were born on ${daysofWeek[index]}` 
-    alert(yourAkanName)
-
+  let index = getDay();
+  if (male.checked) {
+    let yourAkanName = `Your Akan Name is ${maleAkan[index]} and you were born on ${daysofWeek[index]}`;
+    alert(yourAkanName);
+  } else  {
+    let yourAkan = `Your Akan Name is ${femaleAkan[index]} and you were born on ${daysofWeek[index]}`;
+    alert(yourAkan);
   }
-  else if(female.value=="female"){
-      let yourAkanName=`Your Akan Name is ${femaleAkan[index]} and you were born on ${daysofWeek[index]}`
-  alert(yourAkanName)
-    }
+}
+function validate(){
+
 
 }
 btn.addEventListener("click", function (e) {
   e.preventDefault();
   getAkan();
+  validate();
 });
