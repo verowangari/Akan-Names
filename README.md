@@ -4,7 +4,7 @@ Assigns users Akan names, based on their birth day. 10-Dec-2021
 #### By 
 Veronica Wangari
 ## Description
-It is a web application that takes a users date of birth, and returns the value of their Akan Name, based on the day of the week they were born.<br> 
+It is a web application that takes a users date of birth, and returns the value of their Akan Name, based on the day of the week they were born.<br> Akan names are maily used by people of Ghana where names are given<br> based on the day of the week a person is born.
 ## Link to Github Pages
 
 
