@@ -8,7 +8,7 @@ function getDay() {
   let DD = parseInt(date.value);
   let MM = parseInt(month.value);
   let YY = parseInt(year.value);
-  YY = YY.toString().substr(2, 4);
+  YY = YY.toString().substr(1, 4);
   let CC = YY.toString().substr(0, 2);
   let d = (CC / 4 - 2 * CC - 1 + (5 * YY) / 4 + (26 * (MM + 1)) / 10 + DD) % 7;
   d = Math.floor(d);
