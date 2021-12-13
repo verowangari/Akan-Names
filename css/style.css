@@ -1,5 +1,9 @@
+body{
+    background-color: #0d1137;
+}
+.navbar { background-color: #e52165;}
 .navbar-brand span{
-    color: #e52165;
+    color: white;
 }
  .navbar-brand {
     font-family: "Oleo Script Swash Caps";
@@ -16,7 +20,9 @@
 }
 /* Styling for the grid */
 #firstcolumn{
-    background-image: url(/assets/culture.jpeg);
+    background-image: url(/assets/culture-removebg-preview.png);
+    box-shadow: #e52165 2px;
+border: solid #e52165 1px;
       color:white;
       font-size: 26px;
       font-weight: 350px;
