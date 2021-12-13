@@ -4,10 +4,11 @@ const year = document.getElementById("year");
 const btn = document.getElementById("btn");
 const male = document.getElementById("male");
 const female = document.getElementById("female");
+let DD, MM, YY;
 function getDay() {
-  let DD = parseInt(date.value);
-  let MM = parseInt(month.value);
-  let YY = parseInt(year.value);
+  DD = parseInt(date.value);
+  MM = parseInt(month.value);
+  YY = parseInt(year.value);
   YY = YY.toString().substr(1, 4);
   let CC = YY.toString().substr(0, 2);
   let d = (CC / 4 - 2 * CC - 1 + (5 * YY) / 4 + (26 * (MM + 1)) / 10 + DD) % 7;
@@ -44,9 +45,19 @@ function getAkan() {
     alert(yourAkan);
   }
 }
-function validate() {}
+function validate() {
+  if (DD > 31) {
+    alert("input correct date");
+  } else if (MM > 12) {
+    alert("Input correct month");
+  } else {
+    getAkan();
+  }
+}
 btn.addEventListener("click", function (e) {
   e.preventDefault();
-  getAkan();
+  getDay();
   validate();
+  
+  console.log(DD);
 });
